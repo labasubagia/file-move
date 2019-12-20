@@ -5,9 +5,10 @@ This file is used to manage a directory (_source folder_) and still make it empt
 -   You have to make sure that you run **script.py**
 -   You must have a **source folder** as a folder to still keep clean
 -   You must have a **destination folder** as folder destination to move the file	
-**Example:**
-	- source folder path : _/home/user/downloads_
-	- destination folder path : _/home/user/manage-downloads_
+
+#### Example :
+- source folder path : _/home/user/downloads_
+- destination folder path : _/home/user/manage-downloads_
 ```sh
 $ python3 script.py /home/user/downloads /home/user/manage-downloads
 ```
