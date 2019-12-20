@@ -7,10 +7,10 @@ This file is used to manage a directory (_source folder_) and still make it empt
 -   You must have a **destination folder** as folder destination to move the file	
 **Example:**
 	- source folder path : _/home/user/downloads_
-	- destination folder path 	: _/home/user/manage-downloads_
-		```sh
-		$ python3 script.py /home/user/downloads /home/user/manage-downloads
-		```
+	- destination folder path : _/home/user/manage-downloads_
+```sh
+$ python3 script.py /home/user/downloads /home/user/manage-downloads
+```
 ## How to add more file types?
 Steps if you want to add more file extension or file folder
 1. Open **script.py** 
