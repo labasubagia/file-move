@@ -1,6 +1,13 @@
 # File Move
 This file is used to manage a directory (_source folder_) and still make it empty by moving all files to some destination directory and make it categorized.
 
+## Requirement
+1. Make sure to use newest version of Python 3
+2. You need to install **watchdog** library from pip
+```sh
+$ pip install watchdog
+```
+
 ## How to Use?
 -   You have to make sure that you run **script.py**
 -   You must have a **source folder** as a folder to still keep clean
@@ -12,6 +19,8 @@ This file is used to manage a directory (_source folder_) and still make it empt
 ```sh
 $ python3 script.py /home/user/downloads /home/user/manage-downloads
 ```
+> Note: use **Ctrl + C** to stop it
+
 ## How to add more file types?
 Steps if you want to add more file extension or file folder
 1. Open **script.py** 
