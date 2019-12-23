@@ -20,7 +20,7 @@ def move_all(path_source: str, path_destination: str) -> None:
         for filename in files:
 
             # get file name and file extension
-            # use _ because for name because its never used
+            # use _ for name because its never used
             _, extension = os.path.splitext(filename)
             
             # destination folder
